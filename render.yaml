@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: customersupport-backend
-    env: docker
-    plan: free
-    buildCommand: mvn clean install
-    startCommand: java -jar target/*.jar
